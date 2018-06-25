@@ -1,0 +1,301 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.head{
+  width: 1349px;
+  height: 40px;
+}
+.head_banxin{
+  width: 1200px;
+  height: 40px;
+  margin:0 auto;
+}
+.head_banxin_left{
+  width: 382px;
+  height: 40px;
+  display: inline-block;
+}
+.head_banxin_left p{
+  font-size:14px;
+  height:40px;
+  line-height:40px;
+  float: left;
+  color: #666666;
+}
+.head_banxin_left ul{
+  list-style: none;
+  float: left;
+}
+.head_banxin_left li{
+  padding-left:20px;
+  float: left;
+  padding-right: 10px;
+
+}
+.head_banxin_left a{
+  height:40px;
+  line-height:40px;
+  font-size:14px;
+  text-decoration: none;
+  display: inline-block;
+}
+.head_right{
+  width: 370px;
+  height: 40px;
+  float: right;
+  display: inline-block;
+}
+.head_right ul{
+  list-style:none;
+}
+.head_right li{
+  float: left;
+}
+.head_right a{
+  height:40px;
+  line-height:40px;
+  color: #666;
+  display: inline-block;
+  text-decoration:none;
+  padding-left:30px;
+}
+.head_right li:first-child{
+  background: url("../images/购物车.png") no-repeat 0px 10px;
+}
+/*head 结束*/
+
+/*search 开始*/
+.search{
+  width: 1349px;
+  height: 138px;
+}
+.search_banxin{
+  width: 1349px;
+  height: 1200px;
+}
+.search_banxin_left{
+  float: left;
+  padding-left:65px;
+}
+.search_banxin_right{
+  width: 736px;
+  height: 44px;
+  float: right;
+}
+.searchtext{
+  width: 644px;
+  height: 44px;
+  float: left;
+  font-size: 14px;
+  color: #666;
+  margin-top:23px;
+  border: 1px solid #2E5DB9;
+}
+.searchbutton{
+  width: 90px;
+  height: 48px;
+  margin-top:23px;
+  border:none;
+  background-color: #2E5DB9;
+}
+/*search 结束*/
+/*nav  开始*/
+.nav{
+  width: 1349px;
+  height: 60px;
+  margin-bottom:20px;
+}
+.nav_banxin{
+  width: 1200px;
+  height: 60px;
+  margin:0 auto;
+}
+.nav_banxin ul{
+  list-style: none;
+}
+.nav_banxin li{
+  float: left;
+}
+.nav_banxin a{
+  width: 240px;
+  height:60px;
+  line-height:60px;
+  font-size:20px;
+  font-weight:bold;
+  color: #000;
+  text-align: center;
+  /*padding-left:63px;*/
+  display: inline-block;
+  text-decoration: none;
+}
+.nav_banxin a:hover{
+  color: #fff;
+  background-color: #317AE8;
+}
+.nav_banxin .current{
+  color: #fff;
+  background-color: #317AE8;
+}
+/*nav 结束*/
+
+/*main  开始*/
+.fenlei{
+  width: 1200px;
+  height: 30px;
+  background-color: #e3e4e5;
+  margin:0 auto;
+}
+.fenlei p{
+  width: 1185px;
+  height: 30px;
+  line-height: 30px;
+  font-size:16px;
+  font-weight:bold;
+  padding-left:15px;
+  border: 1px solid #666;
+}
+.fenlei span{
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.select{
+  width: 1198px;
+  height: 160px;
+  margin:0 auto;
+  border: 1px solid #666;
+  border-collapse: collapse;
+}
+.select p{
+  float: left;
+  padding-left:15px;
+  height: 50px;
+  line-height:50px;
+  font-size:18px
+}
+.select a{
+  height:50px;
+  line-height: 50px;
+  font-size:18px;
+  padding-right: 15px;
+  display: inline-block;
+}
+.select .more{
+  width: 60px;
+  height: 40px;
+  line-height:40px;
+  margin-right:20px;
+  margin-top:10px;
+  border:none;
+}
+.price{
+  width: 1198px;
+  height: 50px;
+  border-bottom: 1px dashed #666;
+  border-collapse: collapse;
+  margin:0 auto;
+  margin-bottom: 15px;
+}
+.price a{
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+}
+/*main 结束*/
+
+/*banner  开始*/
+.banner{
+  width: 1200px;
+  height: 500px;
+  margin:0 auto;
+}
+
+.banner .box{
+  width: 225px;
+  height: 250px;
+  background:#fff;
+  display:inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.banner .pic{
+  width: 150px;
+  height: 144px;
+  margin-left: 36px;
+  margin-top: 28px;
+}
+.banner p{
+  width: 140px;
+  height: 30px;
+  font-size: 14px;
+  margin-top:10px;
+  display:inline-block;
+}
+.banner .span{
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
+  color: red;
+}
+.banner input{
+  width: 98px;
+  height: 30px;
+  border-style: none;
+  color: #666;
+  background-color: #e5e6e8;
+
+}
+/*banner  结束*/
+/*foot  开始*/
+.foot_top{
+  height: 102px;
+  margin-top:20px;
+  background: url("../images/pic_03.png") no-repeat center;
+  background-color:#1f5ab4;
+  border-bottom:1px solid #3569ba;
+}
+.foot_bottom{
+  height: 268px;
+  background-color:#1f5ab4;
+}
+.foot_bottom_banxin{
+  height: 210px;
+  width: 1160px;
+  background-color:#1f5ab4;
+  margin:0 auto;
+  padding-top: 58px;
+  padding-left:260px;
+}
+.foot_bottom_banxin dl{
+  float: left;
+  margin-right:102px;
+
+}
+.foot_bottom_banxin dt{
+  font-size: 18px;
+  color:white;
+  margin-bottom: 24px;
+}
+.foot_bottom_banxin dd{
+  height: 28px;
+}
+.foot_bottom_banxin dd a{
+  font-size:14px;
+  color:white;
+  height: 28px;
+  line-height:28px;
+}
+.foot_bottom_banxin dd a:hover{
+  color: #000;
+}
+.foot_bottom_banxin p{
+  font-size:14px;
+  color:#333333;
+}
+/*foot  结束*/

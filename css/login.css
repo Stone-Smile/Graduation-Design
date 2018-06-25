@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*head  结束*/
+.head a{
+	font-size: 30px;
+
+	color: #0A419B;
+	text-decoration: none;	
+}
+.head{
+	width: 370px;
+	height: 75px;
+	margin: 0 auto;	
+	padding-top: 120px;
+}
+/*head 结束*/
+
+/*login  开始*/
+.body{
+	width: 380px;
+	height: 320px;
+	margin: 0 auto;
+}
+.login_banxin{
+	width:310px;
+	height: 200px;
+	position: relative;
+}
+table input[type='text']{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    text-indent: 10px;
+    border: 1px solid #999;
+}
+table input[type='password']{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    text-indent: 10px;
+    border: 1px solid #999;
+}
+
+table th{
+    width: 150px;
+}
+table .btn{
+    height: 50px;
+    width: 100px;
+    background: pink;
+    color: #fff;
+    border-radius: 5px;
+}
+/*login  结束*/

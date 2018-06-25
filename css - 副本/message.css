@@ -1,0 +1,399 @@
+.head{
+  height: 40px;
+}
+.head_banxin{
+  width: 1200px;
+  height: 40px;
+  margin:0 auto;
+}
+.head_banxin_left{
+  width: 382px;
+  height: 40px;
+  display: inline-block;
+}
+.head_banxin_left p{
+  font-size:14px;
+  height:40px;
+  line-height:40px;
+  float: left;
+  color: #666666;
+}
+.head_banxin_left ul{
+  list-style: none;
+  float: left;
+}
+.head_banxin_left li{
+  padding-left:20px;
+  float: left;
+  padding-right: 10px;
+
+}
+.head_banxin_left a{
+  height:40px;
+  line-height:40px;
+  font-size:14px;
+  text-decoration: none;
+  display: inline-block;
+}
+.head_right{
+  width: 370px;
+  height: 40px;
+  float: right;
+  display: inline-block;
+}
+.head_right ul{
+  list-style:none;
+}
+.head_right li{
+  float: left;
+}
+.head_right a{
+  height:40px;
+  line-height:40px;
+  color: #666;
+  display: inline-block;
+  text-decoration:none;
+  padding-left:30px;
+}
+.head_right li:first-child{
+  background: url(../images/购物车.png) no-repeat 0px 10px;
+}
+/*head 结束*/
+
+/*search 开始*/
+.search{
+  height: 138px;
+  background-color: #fff;
+}
+.search_banxin{
+  width: 1200px;
+  height: 138px;
+  margin:0 auto;
+  line-height: 138px;
+}
+.search_banxin_right{
+  height: 48px;
+  padding:45px 0;
+}
+.search_text{
+  width: 644px;
+  height: 46px;
+  font-size: 14px;
+  color: #666;
+  border: 1px solid #2E5DB9;
+}
+.search_button{
+  width: 90px;
+  height: 48px;
+  border:none;
+  background-color: #2E5DB9;
+}
+/*search 结束*/
+/*nav  开始*/
+.nav{
+  height: 60px;
+}
+.nav_banxin{
+  width: 1200px;
+  height: 60px;
+  margin:0 auto;
+}
+.nav_banxin li{
+  float: left;
+}
+.nav_banxin a{
+  width: 240px;
+  height:60px;
+  line-height:60px;
+  font-size:20px;
+  font-weight:bold;
+  color: #000;
+  text-align: center;
+  /*padding-left:63px;*/
+  display: inline-block;
+}
+.nav_banxin a:hover{
+  color: #fff;
+  background-color: #317AE8;
+}
+.nav_banxin .current{
+  color: #fff;
+  background-color: #317AE8;
+}
+/*nav 结束*/
+
+/*当前位置  开始*/
+.current{
+    height: 70px;
+    background-color: #fff;
+}
+.current_banxin{
+  width: 1200px;
+  height: 70px;
+  margin:0 auto;
+}
+.current_banxin p{
+  height: 70px;
+  line-height: 70px;
+  font-size:16px;
+}
+/*当前位置  结束*/
+.content_banxin{
+  width: 1200px;
+  margin:0 auto;
+}
+.left {
+  width: 920px;
+}
+.right {
+  width: 250px;
+}
+/*药品介绍  开始*/
+.drug{
+  width: 920px;
+  height: 160px;
+  border-top: 1px solid #acdafd;
+  border-right: 1px solid #acdafd;
+
+}
+.drug h3{
+  color: #000;
+  width:920px;
+  height: 50px;
+  font-size:24px;
+  font-weight:bold;
+  line-height:70px;
+  text-align: center;
+  padding-bottom:15px;
+}
+.drug p{
+  color: #000;
+  font-size:18px;
+  height: 24px;
+  line-height: 24px;
+  text-indent:2em;
+  padding-left:20px;
+  padding-right:20px;
+}
+/*药品介绍  结束*/
+
+/*搜索关键词  开始*/
+.key{
+  width: 920px;
+  height: 160px;
+  margin-top:30px;
+  border-top: 1px solid #acdafd;
+  border-right: 1px solid #acdafd;
+}
+.key h4{
+  color: #000;
+  width:920px;
+  height: 50px;
+  font-size:24px;
+  font-weight:bold;
+  line-height:70px;
+  background-color: #f1f8fe;
+  border-right: 1px solid #acdafd;
+  border-bottom:1px dashed #acdafd;
+}
+.key .button{
+  width: 142px;
+  height: 30px;
+  border:none;
+  color: #2e5db9;
+  margin-top:10px;
+  margin-left:8px;
+  background-color: #f1f8fe;
+  border:1px solid  #acdafd;
+}
+/*搜索关键词  结束*/
+/*药品资讯  开始*/
+.consult{
+  width: 920px;
+  height: 900px;
+  margin-top:20px;
+  border-top: 1px solid #acdafd;
+  border-right: 1px solid #acdafd;
+}
+.consult h5{
+  color: #000;
+  width:920px;
+  height: 50px;
+  font-size:24px;
+  font-weight:bold;
+  line-height:70px;
+  background-color: #f1f8fe;
+  border-right: 1px solid #acdafd;
+  border-bottom:1px dashed #acdafd;
+}
+.consult .first{
+  width: 895px;
+  height: 148px;
+  border-bottom:1px dashed #acdafd;
+}
+.consult img{
+  width: 158px;
+  height: 114px;
+  padding-top:18px;
+  padding-left:20px;
+}
+.consult .title{
+  width: 655px;
+  font-size:18px;
+  height:32px;
+  line-height:32px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+.consult .article{
+  width: 655px;
+  font-size:16px;
+  height:26px;
+  line-height:26px;
+  text-indent:2em;
+  float: right;
+  padding-left: 52px;
+  display: inline-block;
+}
+.consult .label{
+  width: 475px;
+  height: 28px;
+  line-height: 120px;
+}
+/*药品资讯  结束*/
+
+/*热门标签  开始*/
+.label{
+  width: 250px;
+  height: 350px;
+}
+.label h5{
+  width: 250px;
+  height: 50px;
+  line-height:50px;
+  font-weight:bold;
+  font-size:18px;
+  text-align:center;
+  border-top:1px solid #c5e5fe;
+  border-left:1px solid #c5e5fe;
+  border-right:1px solid #c5e5fe;
+  border-bottom:1px dashed #c5e5fe;
+}
+.label a{
+  width: 250px;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+  text-align: center;
+  border-bottom:1px solid #c5e5fe;
+  border-left:1px solid #c5e5fe;
+  border-right:1px solid #c5e5fe;
+}
+/*热门标签   结束*/
+
+/*相关主题  开始*/
+.topic{
+  width: 250px;
+  height: 350px;
+}
+.topic h5{
+  width: 250px;
+  height: 50px;
+  line-height:50px;
+  font-weight:bold;
+  font-size:18px;
+  text-align:center;
+  border-top:1px solid #c5e5fe;
+  border-left:1px solid #c5e5fe;
+  border-right:1px solid #c5e5fe;
+  border-bottom:1px dashed #c5e5fe;
+}
+.topic a{
+  width: 250px;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+  text-align: center;
+  border-bottom:1px solid #c5e5fe;
+  border-left:1px solid #c5e5fe;
+  border-right:1px solid #c5e5fe;
+}
+/*相关主题  结束*/
+
+/*热门产品  开始*/
+.hot{
+  width: 250px;
+  height: 350px;
+}
+.hot h5{
+  width: 250px;
+  height: 50px;
+  line-height:50px;
+  font-weight:bold;
+  font-size:18px;
+  text-align:center;
+  border-top:1px solid #c5e5fe;
+  border-left:1px solid #c5e5fe;
+  border-right:1px solid #c5e5fe;
+  border-bottom:1px dashed #c5e5fe;
+}
+.hot a{
+  width: 250px;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+  text-align: center;
+  border-bottom:1px solid #c5e5fe;
+  border-left:1px solid #c5e5fe;
+  border-right:1px solid #c5e5fe;
+}
+/*热门产品  结束*/
+
+/*foot  开始*/
+.foot_top{
+  height: 102px;
+  margin-top:1400px;
+  background: url("../images/pic_03.png") no-repeat center;
+  background-color:#1f5ab4;
+  border-bottom:1px solid #3569ba;
+}
+.foot_bottom{
+  height: 268px;
+  background-color:#1f5ab4;
+}
+.foot_bottom_banxin{
+  height: 210px;
+  width: 1160px;
+  background-color:#1f5ab4;
+  margin:0 auto;
+  padding-top: 58px;
+  padding-left:260px;
+}
+.foot_bottom_banxin dl{
+  float: left;
+  margin-right:102px;
+
+}
+.foot_bottom_banxin dt{
+  font-size: 18px;
+  color:white;
+  margin-bottom: 24px;
+}
+.foot_bottom_banxin dd{
+  height: 28px;
+}
+.foot_bottom_banxin dd a{
+  font-size:14px;
+  color:white;
+  height: 28px;
+  line-height:28px;
+}
+.foot_bottom_banxin dd a:hover{
+  color: #000;
+}
+.foot_bottom_banxin p{
+  font-size:14px;
+  color:#333333;
+}
+/*foot 结束*/

@@ -1,0 +1,316 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.head{
+  width: 1349px;
+  height: 40px;
+}
+.head_banxin{
+  width: 1200px;
+  height: 40px;
+  margin:0 auto;
+}
+.head_banxin_left{
+  width: 382px;
+  height: 40px;
+  display: inline-block;
+}
+.head_banxin_left p{
+  font-size:14px;
+  height:40px;
+  line-height:40px;
+  float: left;
+  color: #666666;
+}
+.head_banxin_left ul{
+   list-style: none;
+  float: left;
+ }
+.head_banxin_left li{
+  padding-left:20px;
+  float: left;
+  padding-right: 10px;
+
+}
+.head_banxin_left a{
+  height:40px;
+  line-height:40px;
+  font-size:14px;
+  text-decoration: none;
+  display: inline-block;
+}
+.head_right{
+  width: 370px;
+  height: 40px;
+  float: right;
+  display: inline-block;
+}
+.head_right ul{
+  list-style:none;
+}
+.head_right li{
+  float: left;
+}
+.head_right a{
+  height:40px;
+  line-height:40px;
+  color: #666;
+  display: inline-block;
+  text-decoration:none;
+  padding-left:30px;
+}
+.head_right li:first-child{
+  background: url(../images/购物车.png) no-repeat 0px 10px;
+}
+/*head 结束*/
+
+/*search 开始*/
+.search{
+  width: 1349px;
+  height: 138px;
+}
+.search_banxin{
+  width: 1349px;
+  height: 1200px;
+}
+.search_banxin_left{
+  float: left;
+  padding-left:65px;
+}
+.search_banxin_right{
+  width: 736px;
+  height: 44px;
+  float: right;
+}
+.searchtext{
+  width: 644px;
+  height: 44px;
+  float: left;
+  font-size: 14px;
+  color: #666;
+  margin-top:23px;
+  border: 1px solid #2E5DB9;
+}
+.searchbutton{
+  width: 90px;
+  height: 48px;
+  margin-top:23px;
+  border:none;
+  background-color: #2E5DB9;
+}
+/*search 结束*/
+/*nav  开始*/
+.nav{
+  width: 1349px;
+  height: 60px;
+}
+.nav_banxin{
+  width: 1200px;
+  height: 60px;
+  margin:0 auto;
+}
+.nav_banxin ul{
+  list-style: none;
+}
+.nav_banxin li{
+  float: left;
+}
+.nav_banxin a{
+  width: 240px;
+  height:60px;
+  line-height:60px;
+  font-size:20px;
+  font-weight:bold;
+  color: #000;
+  text-align: center;
+  /*padding-left:63px;*/
+  display: inline-block;
+  text-decoration: none;
+}
+.nav_banxin a:hover{
+  color: #fff;
+  background-color: #317AE8;
+}
+.nav_banxin .current{
+  color: #fff;
+  background-color: #317AE8;
+}
+/*nav 结束*/
+
+/*banner 开始*/
+.banner{
+  width: 1349px;
+  height: 466px;
+}
+.banner_banxin{
+  width: 1200px;
+  height: 466px;
+  margin:0 auto;
+}
+.banner_banxin_left{
+  width: 240px;
+  height: 466px;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.banner_banxin_left ul{
+  list-style: none;
+}
+.banner_banxin_left a{
+  width: 240px;
+  height:24px;
+  color: #fff;
+  line-height:24px;
+  font-size:14px;
+  display:inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+.banner_banxin_left a:hover{
+  color: #317AE8;
+  background-color: #ddf1fc;
+}
+
+     /*轮播图  开始*/
+.banner_banxin_center img{
+  width: 730px;
+  height: 465px;
+}
+    /*轮播图  结束*/
+.banner_banxin_right{
+  width: 228px;
+  height: 466px;
+}
+.banner_banxin_right .right_head{
+  width: 228px;
+  height: 100px;
+  background-color: #1F59B3;
+}
+.right_head .suit{
+  width: 228px;
+  height: 25px;
+  line-height:36px;
+  font-size:18px;
+  color: #fff;
+  text-align: center;
+  padding-top:10px;
+}
+.right_head .save{
+  width: 230px;
+  height: 44px;
+  line-height:36px;
+  font-size:20px;
+  color: #EFFF08;
+  text-align: center;
+}
+.banner_banxin_right .right_center{
+  width:228px;
+  height: 180px;
+  background-color: powderblue;
+  position: relative;
+}
+.right_center ul{
+  float: left;
+}
+.right_center li{
+  float: left;
+  width: 112px;
+  height: 87px;
+  display: inline-block;
+  border: 1px solid #666;
+  border-collapse: collapse;
+}
+.right_center a{
+  width: 95px;
+  height: 90px;
+  line-height:90px;
+}
+.right_center .height{
+  height: 20px;
+}
+.right_center .world{
+  height: 70px;
+  text-align: center;
+}
+.right_center .icon-yaopin{
+  font-size:40px;
+  position: absolute;
+  top:-15px;
+  left:37px;
+}
+.right_center .icon-yaoxiang{
+  font-size:30px;
+  position: absolute;
+  top:-10px;
+  left:153px;
+}
+
+.right_center .icon-iconfontwenda{
+  font-size:30px;
+  position: absolute;
+  top:75px;
+  left:45px;
+}
+.right_center .icon-yisheng{
+  font-size:30px;
+  position: absolute;
+  top:80px;
+  left:155px;
+}
+.banner_banxin_right .right_bottom {
+  width: 228px;
+  height: 206px;
+  background: url("../images/首页_03.png") no-repeat;
+  background-color: #1F59B3;
+  
+}
+/*banner  结束*/
+
+/*foot  开始*/
+.foot_top{
+  height: 102px;
+  margin-top:20px;
+  background: url("../images/pic_03.png") no-repeat center;
+  background-color:#1f5ab4;
+  border-bottom:1px solid #3569ba;
+}
+.foot_bottom{
+  height: 268px;
+  background-color:#1f5ab4;
+}
+.foot_bottom_banxin{
+  height: 210px;
+  width: 1160px;
+  background-color:#1f5ab4;
+  margin:0 auto;
+  padding-top: 58px;
+  padding-left:260px;
+}
+.foot_bottom_banxin dl{
+  float: left;
+  margin-right:102px;
+
+}
+.foot_bottom_banxin dt{
+  font-size: 18px;
+  color:white;
+  margin-bottom: 24px;
+}
+.foot_bottom_banxin dd{
+  height: 28px;
+}
+.foot_bottom_banxin dd a{
+  font-size:14px;
+  color:white;
+  height: 28px;
+  line-height:28px;
+}
+.foot_bottom_banxin dd a:hover{
+  color: #000;
+}
+.foot_bottom_banxin p{
+  font-size:14px;
+  color:#333333;
+}
+/*foot  结束*/
